@@ -10,6 +10,6 @@ fun Application.configureOpenAPI() {
         openAPI(path = "openapi")
     }
     routing {
-        swaggerUI(path = "openapi")
+        swaggerUI(path = "swagger-ui")
     }
 }
