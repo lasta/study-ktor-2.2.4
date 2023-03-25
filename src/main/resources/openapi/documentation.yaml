@@ -1,10 +1,10 @@
 openapi: "3.0.3"
 info:
-  title: "study_ktor_2_2_4 API"
-  description: "study_ktor_2_2_4 API"
+  title: "study ktor 2.2.4 API"
+  description: "study ktor 2.2.4 API"
   version: "1.0.0"
 servers:
-  - url: "https://study_ktor_2_2_4"
+  - url: "http://localhost:8080"
 paths:
   /metrics-micrometer:
     get:
