@@ -11,6 +11,7 @@ import io.ktor.server.response.respondText
 import io.ktor.server.routing.routing
 import lasta.page.controller.routeDatabaseSamples
 import lasta.page.controller.routeSamples
+import lasta.page.plugins.configureDataConversion
 import lasta.page.plugins.configureMonitoring
 import lasta.page.plugins.configureOpenAPI
 import lasta.page.plugins.configureSerialization
@@ -24,6 +25,7 @@ fun Application.module() {
     configureOpenAPI()
     configureMonitoring()
     configureSerialization()
+    configureDataConversion()
 
     install(Resources)
     install(StatusPages) {
